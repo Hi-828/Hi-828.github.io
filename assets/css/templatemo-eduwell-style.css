@@ -1957,8 +1957,8 @@ body {
 }
 
 @keyframes mymove1 {
-  80%{transform:rotate(0deg);top:180px;}
-  100% {transform:rotate(45deg); top:-700px;}
+  60%{transform:rotate(0deg);top:180px;}
+  80% {transform:rotate(45deg); top:-700px;}
 }
 
 #btn-group-2
@@ -1967,29 +1967,29 @@ body {
 }
 
 @keyframes mymove2 {
-  60%{transform:rotate(0deg);top:180px;}
-  80% {transform:rotate(45deg); top:-700px;}
-}
-
-#btn-group-3
-{
-	animation: mymove3 40s infinite;
-}
-
-@keyframes mymove3 {
   40%{transform:rotate(0deg);top:180px;}
   60% {transform:rotate(45deg); top:-700px;}
 }
 
+#btn-group-3
+{
+	animation: mymove3 20s infinite;
+}
+
+@keyframes mymove3 {
+  20%{transform:rotate(0deg);top:180px;}
+  40% {transform:rotate(45deg); top:-700px;}
+}
+
 #btn-group-4
 {
-	animation: mymove4 40s infinite;
+	animation: mymove4 20s infinite;
 }
 
 @keyframes mymove4 {
 
-  20%{transform:rotate(0deg);top:180px;}
-  40% {transform:rotate(45deg); top:-700px;}
+  0%{transform:rotate(0deg);top:180px;}
+  20% {transform:rotate(45deg); top:-700px;}
 }
 
 .nav {
