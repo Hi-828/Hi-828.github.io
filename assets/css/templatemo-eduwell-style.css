@@ -2150,7 +2150,7 @@ body {
 
 @keyframes flowDown {
   0% {
-    transform: translateY(-25%);
+    transform: translateY(-15%);
   }
   20% {
     transform: translateY(0%);
