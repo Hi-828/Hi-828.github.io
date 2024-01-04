@@ -2203,13 +2203,13 @@ body {
     transform: translateY(0%); /* Hold the position for 2 seconds */
   }
   70% {
-    transform: translateY(-25vh); /* Hold the position for 2 seconds */
+    transform: translateY(-5vh); /* Hold the position for 2 seconds */
   }
   80% {
-    transform: translateY(-25vh); /* Adjust based on the container's height */
+    transform: translateY(-10vh); /* Adjust based on the container's height */
   }
   100% {
-    transform: translateY(-100vh); /* Adjust based on the container's height */
+    transform: translateY(-20vh); /* Adjust based on the container's height */
   }
 }
 
